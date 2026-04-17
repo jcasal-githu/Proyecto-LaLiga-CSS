@@ -1,0 +1,36 @@
+body{
+    color: blue;
+    font-size: 16px;
+    background-color: #cfc;
+    font-family: Georgia,Cambria,serif;
+}
+
+#Titulo_rojo {
+    color: #f00;
+    font-size: 32px;
+    font-family: Verdana,Calibri, sans-serif;
+}
+#titulo_rojo2,#titulo_rojo3 {
+    color:#a00;
+    font-size: 24px;
+    font-family:  Verdana,Calibri, sans-serif;
+}
+#resalto_negro {
+    color: #fff;
+    background-color: #000;
+    font-style:italic;
+}
+span{
+    color: #060;
+
+}
+#resalto-azul{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
