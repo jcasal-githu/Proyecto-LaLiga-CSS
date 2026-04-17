@@ -1,0 +1,14 @@
+body{
+    font-style: arial,verdana; 
+    background-image: url('/imagenes/fondolaliga.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article img{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20%;
+}

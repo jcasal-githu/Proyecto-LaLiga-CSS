@@ -1,0 +1,11 @@
+body{
+    color: white;
+    background-image: url('/imagenes/fondolaliga.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Tabla{
+    margin-bottom: 10000 px;
+    color:white;
+}

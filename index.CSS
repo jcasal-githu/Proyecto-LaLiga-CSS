@@ -1,0 +1,48 @@
+body{
+    background-image: url('/imagenes/fondolaliga.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1{
+    text-decoration: underline;
+    color: white;
+}
+
+ol{
+    color: white;
+    width: 50 px;
+    height: 50 px;
+}
+
+/*Estilo para la lista de equipos en la clasificación*/
+.lista li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+}
+
+/*Estilo para las imágenes de los logos de los equipos*/
+.lista img {
+  margin-left: 10px; /* Separa el logo del texto */
+  object-fit: contain; /* Evita que la imagen se deforme */
+  width: 50px;  /* Tamaño por defecto */
+  height: 50px;
+  border-radius: 20%; /* Bordes redondeados */
+  alt: "La liga logo";
+}
+
+.Enlace-liga{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+}

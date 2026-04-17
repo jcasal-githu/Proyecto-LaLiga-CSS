@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Liga</title>
+    <link rel="stylesheet" type="text/css" href="registro.CSS" />
+    <div style="text-align: center;">
+        <a href="index.html"><img src="./imagenes/laliga-logo.jpg" alt="La Liga Logo" width="150" height="140"></header></a> 
+        </div>
+    <header><header><img src ="./imagenes/laliga3.jpg" alt="La Liga Logo" width="2120" height="150">
+</head>
+<body>
+    <!--Este es el fondo de la pagina, lo he pasado a CSS.
+    <style>
+    body {
+        background-image: url('/imagenes/fondolaliga.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        }
+        </style>
+    -->
+        <u>
+    <h1>Registro de Usuario</h1>
+    </u>
+    <p>Por favor, completa el siguiente formulario para registrarte:</p>
+    <form action="registro.html" method="post"><!--Aqui he usado el TAG form para hacer el formulario usando diferentes tags adecuados para cada seccion-->
+        <label for="username">Nombre de usuario:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Sexo:</label>
+        <select id="sexo" name="sexo"><br><br>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            </select><br><br>
+        <label for="descripcion">Descripción personal:</label>
+        <input textarea id="descripcion" name="descripcion" rows="4" cols="50" placeholder="Escribe una breve descripción sobre ti..." required></input><br><br>
+        <label for="info">¿Desea recibir información adicional?</label>
+        <input type="checkbox" id="info" name="info"><br><br>
+        <label for="equipo">¿cual es tu equipo favorito?</label>
+        <select id="equipo" name="equipo">
+            <option value="Real Madrid">Real Madrid</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Atletico de Madrid">Atletico de Madrid</option>
+            <option value="Sevilla">Sevilla</option>
+            <option value="Betis">Betis</option>
+            <option value="Villarreal">Villarreal</option>
+            <option value="Athletic Club">Athletic Club</option>
+            <option value="Elche">Real Sociedad</option>
+            <option value="Alavés">Valencia</option>
+            <option value="Espanyol">Celta de Vigo</option>
+        </select><br><br>
+        <input type="submit" value="Enviar">
+</body>
+<footer>
+    <div style="text-align: right;float: right;">
+    <a href="https://www.instagram.com/laliga/"></a><img src="./imagenes/instagram.png" alt="Instagram Logo" width="80" height="80"></a>
+    <a href="https://www.tiktok.com/@laliga"></a><img src="./imagenes/tiktok.png" alt="Instagram Logo" width="80" height="80"></a>
+    <a href="https://x.com/LaLiga/highlights"><img src="./imagenes/x.png" alt="Instagram Logo" width="80" height="80"></a>
+    </div>
+    <a href="index.html"><img src="./imagenes/laliga-logo.jpg" alt="La Liga Logo" width="150" height="140"></header></a>
+    <br><br>
+</footer>
+</html>
